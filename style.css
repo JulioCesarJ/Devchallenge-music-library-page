@@ -1,0 +1,87 @@
+/* Cores principais */
+:root{
+    --Preto: #040517;
+    --Branco: #e5e5e5e7;
+    --Azul: rgb(32, 15, 86);
+}
+
+
+/* Padronização Browser */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #; */
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 20%;
+    height: 100vh;
+    /* background-color: #17002a; */
+    float: left;
+}
+
+/* Menu lateral */
+
+/* Perfil */
+.logo{
+    padding: 72px 22px 185px 22px;
+}
+
+.foto, .nome{
+    /* height: 70px; */
+    float: left;
+}
+
+.foto img{
+    border-radius: 10px;
+    width: 60px;
+    height: 70px;
+    display: block;
+}
+
+.nome{
+    padding: 10px 10px;
+}
+
+.nome h1{
+    font-size: 1em;
+}
+
+.nome h2{
+    font-size: 0.8em;
+}
+
+/* Overview */
+
+.nav1{
+    height: 144px;
+    border: 1px solid red;
+}
+
+.nav1 ul {
+    line-height: 30px;
+    
+}
+
+.nav1 ul li {
+font-size: 14px;
+}
+
+/* Principal */
+main {
+    width: 80%;
+    height: 100vh;
+    /* background-color: var(--Azul); */
+    float: right;
+}
