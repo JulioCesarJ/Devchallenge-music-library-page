@@ -21,13 +21,17 @@ body{
 }
 
 .clear{
+    color: #c3c3c3c3;
+    margin: 0 auto;
+    width: 200px;
     clear: both;
 }
 
 header{
+    color: white;
     width: 20%;
     height: 100vh;
-    /* background-color: #17002a; */
+    background-color: #040517;
     float: left;
 }
 
@@ -64,27 +68,40 @@ header{
 
 /* Overview */
 .navbar{
-    border: 1px solid blue;
 }
 
 .nav1{
     
     height: 144px;
-    border: 1px solid red;
 }
 
 .nav1 ul {
-    margin: 10px auto;
-    width: 80px;
+    margin: 10px 100px;
+    width: max-content;
     line-height: 30px;
-    border: 1px solid blue;
     list-style: none;
 }
 
-.nav1 ul li {
+.nav1 ul li,.nav2 ul li  {
 font-size: 14px;
 
 }
+
+/* dahsboard */
+
+.nav2{
+    height: 144px;
+}
+
+.nav2 ul{
+    margin: 10px 100px;
+    width: max-content;
+    line-height: 30px;
+    list-style: none;
+}
+
+/* Correção HR */
+
 
 /* Principal */
 main {
