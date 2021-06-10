@@ -21,14 +21,14 @@ body{
 }
 
 .clear{
-    color: #c3c3c3c3;
+    border-color: #c3c3c39d;
     margin: 0 auto;
     width: 200px;
     clear: both;
 }
 
 header{
-    color: white;
+    color: #c3c3c3c4;
     width: 20%;
     height: 100vh;
     background-color: #040517;
@@ -82,6 +82,11 @@ header{
     list-style: none;
 }
 
+.nav1 ul li:hover,.nav2 ul li:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .nav1 ul li,.nav2 ul li  {
 font-size: 14px;
 
@@ -100,13 +105,26 @@ font-size: 14px;
     list-style: none;
 }
 
-/* Correção HR */
-
-
 /* Principal */
 main {
     width: 80%;
     height: 100vh;
     /* background-color: var(--Azul); */
     float: right;
+}
+
+.pesquisa{
+    border: 1px solid red;
+}
+
+.carrosel{
+    border: 1px solid red;
+}
+
+.container-inf-esquerdo{
+    /* border: 1px solid red; */
+}
+
+.container-inf-direito{
+    border: 1px solid red;
 }
