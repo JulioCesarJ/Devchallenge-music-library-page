@@ -63,19 +63,27 @@ header{
 }
 
 /* Overview */
+.navbar{
+    border: 1px solid blue;
+}
 
 .nav1{
+    
     height: 144px;
     border: 1px solid red;
 }
 
 .nav1 ul {
+    margin: 10px auto;
+    width: 80px;
     line-height: 30px;
-    
+    border: 1px solid blue;
+    list-style: none;
 }
 
 .nav1 ul li {
 font-size: 14px;
+
 }
 
 /* Principal */
