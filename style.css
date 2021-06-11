@@ -113,18 +113,73 @@ main {
     float: right;
 }
 
+.container-principal{
+    padding-left: 60px;
+}
+
 .pesquisa{
+    width: 280px;
+    height: 30px;
     border: 1px solid red;
 }
 
 .carrosel{
+    margin-top: 44px;
+    border: 1px solid red;
+}
+
+.carrosel h2{
+    font-size: 18px;
+    width: 174px;
+    height: 26px;
+    border: 1px solid red;
+}
+
+.fotos-carrosel{
+    margin: 18px 0px;
+    height: 182px;
+    border: 1px solid blue;
+}
+
+.titulo-musica{
+    border: 1px solid blue;
+}
+
+.barra-rolagem{
+    height: auto;
+    border: 1px solid blue;
+
+}
+
+.cont-inf{
+    height: 250px;
+    margin-right: 60px;
+    margin-top: 34px;
     border: 1px solid red;
 }
 
 .container-inf-esquerdo{
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    float: left;
+}
+
+.fotos-prof{
+    margin-top: 24px;
+    border: 1px solid red;
+}
+
+.fotos-prof ul li {
+    list-style: none;
+}
+
+.fotos-prof ul li img{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .container-inf-direito{
     border: 1px solid red;
+    float: right;
 }
