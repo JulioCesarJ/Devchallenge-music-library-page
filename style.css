@@ -22,6 +22,7 @@ body{
 }
 
 .title{
+    font-weight: bold;
     color: white;
 }
 
@@ -120,19 +121,33 @@ main {
     padding-left: 60px;
 }
 
+/* Pesquisa */
 .pesquisa{
-    width: 280px;
+    width: 320px;
     height: 30px;
-    border: 1px solid red;
 }
 
+.pesquisa input{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #c3c3c3c4;
+    background-color: #14142c;
+    width: 280px;
+    height: 30px;
+    border: none;
+}
+
+.pesquisa i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* Carrosel */
 .carrosel{
     margin-top: 44px;
-    border: 1px solid red;
 }
 
 .carrosel h2{
-    font-size: 18px;
     width: 174px;
     height: 26px;
     border: 1px solid red;
