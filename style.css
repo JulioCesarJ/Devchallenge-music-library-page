@@ -1,7 +1,7 @@
 /* Cores principais */
 :root{
     --Preto: #040517;
-    --Branco: #e5e5e5e7;
+    --Branco: #8d8d91;
     --Azul: rgb(32, 15, 86);
 }
 
@@ -232,3 +232,18 @@ main {
     border: 1px solid red;
     float: right;
 }
+
+/* Imagens track */
+
+.imagens-track ul li {
+    list-style: none;
+    float: left;
+}
+
+.imagens-track ul li img {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}   
