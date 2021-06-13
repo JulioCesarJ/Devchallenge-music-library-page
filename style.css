@@ -21,6 +21,10 @@ body{
     /* background-color: #; */
 }
 
+.title{
+    color: white;
+}
+
 .clear{
     border-color: #c3c3c39d;
     margin: 0 auto;
@@ -154,19 +158,16 @@ main {
     height: 280px;
     margin-right: 60px;
     margin-top: 34px;
-    border: 1px solid red;
 }
 
 /* Container esquerdo */
 .container-inf-esquerdo{
     width: 31%;
-    border: 1px solid blue;
     float: left;
 }
 
 .fotos-prof{
     margin-top: 24px;
-    border: 1px solid blue;
     float: left;
 }
 
@@ -187,7 +188,6 @@ main {
     padding-top: 5px;
     margin-left: 16px;
     margin-top: 24px;
-    border: 1px solid red;
     float: left;
 }
 
@@ -212,7 +212,6 @@ main {
 .album{
     margin-left: 100px;
     margin-top: 24px;
-    border: 1px solid red;
     float: left;
 }
 
@@ -221,7 +220,8 @@ main {
 }
 
 .album ul li {
-    font-size: 12px;
+    letter-spacing: 5px;
+    font-size: 10px;
     line-height: 72px;
 }
 
@@ -229,7 +229,6 @@ main {
 .container-inf-direito{
     width: 42%;
     height: 100%;
-    border: 1px solid red;
     float: right;
 }
 
@@ -247,3 +246,22 @@ main {
     width: 160px;
     height: 160px;
 }   
+
+/* Cantores tracks */
+.nomes-track ul {
+    text-align: left;
+}
+
+.nomes-track ul li{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    float: left;
+    list-style: none;
+}
+
+.nomes-track hr{
+    width: auto;
+    border-radius: 50px;
+    border: 5px solid #321594;
+}
