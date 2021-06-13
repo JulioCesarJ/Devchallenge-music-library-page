@@ -150,22 +150,23 @@ main {
     border: 1px solid blue;
 
 }
-
+/* Container Inferior */
 .cont-inf{
-    height: 250px;
+    height: 280px;
     margin-right: 60px;
     margin-top: 34px;
     border: 1px solid red;
 }
 
+/* Container esquerdo */
 .container-inf-esquerdo{
-    border: 1px solid red;
+    border: 1px solid blue;
     float: left;
 }
 
 .fotos-prof{
     margin-top: 24px;
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 .fotos-prof ul li {
@@ -175,10 +176,11 @@ main {
 .fotos-prof ul li img{
     border-radius: 5px;
     margin-bottom: 20px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
+/* Container direito */
 .container-inf-direito{
     border: 1px solid red;
     float: right;
