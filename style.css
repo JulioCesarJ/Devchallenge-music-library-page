@@ -83,6 +83,10 @@ header{
     font-size: 1em;
 }
 
+.nome h2:hover{
+    color: white;
+    cursor: pointer;
+}
 /* Overview */
 .nav1{
     
@@ -181,14 +185,19 @@ main {
 }
 
 /* titulos musicas carrossel */
+
 .title ul{
+    width: auto;
     margin-bottom: 25px;
+    margin-right: 41px;
     float: left;
+
 }
 
 .title ul li {
-    width: 300px;
-    margin-left: 23px;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-left: 30px;
     display: block;
     list-style: none;
 }
