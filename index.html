@@ -12,138 +12,226 @@
     <title>Music Library Page</title>
 </head>
 <body>
-    <header>
-        <div class="container-esquerdo">
-            <div class="logo">
-                <div class="foto">
-                    <img src="assets/profile.jpg" alt="">
-                </div>
-                <div class="nome">
-                    <h1 class="title">Dany Schudler</h1>
-                    <h2>Edit profile</h2>
-                </div>
-                <div class="clear"></div>
+    <header id="header" class="header">
+        <div class="title">
+            <img class="img" src="assets/profile.jpg" alt="">
+            <div class="descricao">
+                <h1>Dany Schudler</h1>
+                <h2>Edit profile <i class="fas fa-cog"></i></h2>
             </div>
-            <hr class="clear">
-            <div class="navbar">
-                <nav class="nav1">
-                    <ul>
-                        <li><i class="fas fa-globe-americas">&nbsp</i>Overview</li>
-                        <li><i class="far fa-newspaper">&nbsp</i>News</li>
-                        <li><i class="fas fa-music">&nbsp</i>Playlists</li>
-                        <li><i class="fas fa-podcast">&nbsp</i>Discover</li>
-                    </ul>
-                </nav>
-                    <hr class="clear">
-                <nav class="nav2">
-                    <ul>
-                        <li><i class="fas fa-chart-bar">&nbsp</i>Dashboard</li>
-                        <li><i class="far fa-comment-alt">&nbsp</i>Messages</li>
-                        <li><i class="far fa-bell">&nbsp</i>Notifications</li>
-                        <li><i class="far fa-user">&nbsp</i>Account</li>
-                    </ul>
-                </nav>
-            </div>
+        </div>
+        <div class="menu">
+            <h1><i class="fas fa-bars"></i></h1>
+        </div>
+        <div class="menu-desktop-1">
+            <ul>
+                <li><i class="fas fa-search"></i>Overview</li>
+                <li><i class="fas fa-newspaper"></i>New</li>
+                <li><i class="fas fa-music"></i>Playlists</li>
+                <li><i class="fas fa-globe-americas"></i>Discover</li>
+            </ul>
+        </div>
+        <div class="menu-desktop-2">
+            <ul>
+                <li><i class="fas fa-chart-bar"></i>Dashboard</li>
+                <li><i class="fas fa-envelope-open"></i>Messages</li>
+                <li><i class="fas fa-bell"></i>Notifications</li>
+                <li><i class="fas fa-user"></i>Account</li>
+            </ul>
         </div>
     </header>
-    <main>
-        <div class="container-principal">
-            <div class="pesquisa">
-                <input type="text" placeholder="Search artists, playlists or tracks">
-                <i class="fas fa-search"></i>
+    <section id="search">
+        <div class="container-search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search artists, playlists or tracks">
+        </div>
+    </section>
+    <section id="playlist">
+        <div class="title">
+            <h1>Featured Playlist</h1>
+        </div>
+        <div class="playlist-musics">
+            <div class="music">
+                <img src="assets/playlist1.jpg" alt="">
+                <h1>Only STARDUST</h1>
+                <h2>24 tracks</h2>
             </div>
-            <div class="carrosel">
-                <h2 class="title">Featured Playlists</h2>
-                <div class="fotos-carrosel">
-                    <ul>
-                        <li><img src="assets/playlist1.jpg" alt=""></li>
-                        <li><img src="assets/playlist2.jpg" alt=""></li>
-                        <li><img src="assets/playlist3.jpg" alt=""></li>
-                        <li><img src="assets/playlist4.jpg" alt=""></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-                <div class="titulos-carrosel">
-                    <div class="title">
-                        <ul>
-                            <li class="titulos-car">Only STARDUST</li>
-                            <li class="sub-car">24 tracks</li>
-                        </ul>
-                        <ul>
-                            <li class="titulos-car">Mike Vella</li>
-                            <li class="sub-car">12 tracks</li>
-                        </ul>
-                        <ul>
-                            <li class="titulos-car">the best singles s2</li>
-                            <li class="sub-car">163 tracks</li>
-                        </ul>
-                        <ul>
-                            <li class="titulos-car"> Indie</li>
-                            <li class="sub-car">138 tracks</li>
-                        </ul>
-                        <hr class="clear">
-                    </div>
+            <div class="music">
+                <img src="assets/playlist2.jpg" alt="">
+                <h1>Mike Vella</h1>
+                <h2>12 tracks</h2>
+            </div>
+            <div class="music">
+                <img src="assets/playlist3.jpg" alt="">
+                <h1>the best singles s2</h1>
+                <h2>163 tracks</h2>
+            </div>
+            <div class="music">
+                <img src="assets/playlist4.jpg" alt="">
+                <h1>indie</h1>
+                <h2>10 tracks</h2>
+            </div>
+            <div class="music">
+                <img src="assets/playlist4.jpg" alt="">
+                <h1>indie</h1>
+                <h2>10 tracks</h2>
+            </div>
+        </div>
+    </section>
+    <section id="profile">
+        <div class="title">
+            <h1>Profile Views</h1>
+        </div>
+        <div class="playlist-profile">
+            <div class="prof-views">
+                <div class="img-prof"><img src="assets/view1.jpg" alt=""></div>
+                <div class="desc-prof">
+                    <h2>Jenny Villa</h2>
+                    <h3>1 day ago</h3>
                 </div>
             </div>
-            <div class="cont-inf">
-                <div class="container-inf-esquerdo">
-                    <div class="titulo-container">
-                        <h2 class="title">Profile Views</h2>
-                    </div>
-                    <div class="fotos-prof">
-                        <ul>
-                            <li><img src="assets/view1.jpg" alt=""></li>
-                            <li><img src="assets/view2.jpg" alt=""></li>
-                            <li><img src="assets/view3.jpg" alt=""></li>
-                        </ul>
-                    </div>
-                    <div class="texto-foto">
-                        <ul>
-                            <li><h1>Jeeny Villa</h1></li>
-                            <li><h2>1 day ago</h2></li>
-                        </ul>
-                        <ul>
-                            <li><h1>Jeeny Villa</h1></li>
-                            <li><h2>1 day ago</h2></li>
-                        </ul>
-                        <ul>
-                            <li><h1>Jeeny Villa</h1></li>
-                            <li><h2>1 day ago</h2></li>
-                        </ul>
-                    </div>
-                    <div class="album">
-                        <ul>
-                            <li><h2>4 album</h2></li>
-                            <li><h2>2 album</h2></li>
-                            <li><h2>5 album</h2></li>
-                        </ul>
-                    </div>
+            <div class="prof-views">
+                <img src="assets/view2.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>Aquila</h2>
+                    <h3>3 day ago</h3>
                 </div>
-                <div class="container-inf-direito">
-                    <div class="titulo-container">
-                        <h2 class="title">Tracks</h2>
-                    </div>
-                    <div class="imagens-track">
-                        <ul>
-                            <li><img src="assets/track1.jpg" alt=""></li>
-                            <li><img src="assets/track2.jpg" alt=""></li>
-                            <li><img src="assets/track3.jpg" alt=""></li>
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="texto-tracks">
-                        <div class="nomes-track">
-                            <ul>
-                                <li >Mahara bon <br>Sexy in Paris</li>
-                                <li>Donna<br>Pseudo Life</li>
-                                <li>Avven <br>Magic</li>
-                                <hr class="clear">
-                            </ul>
-                        </div>
-                    </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <div class="img-prof"><img src="assets/view1.jpg" alt=""></div>
+                <div class="desc-prof">
+                    <h2>Jenny Villa</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view2.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>Aquila</h2>
+                    <h3>3 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
+                </div>
+            </div>
+            <div class="prof-views">
+                <img src="assets/view3.jpg" alt="">
+                <div class="desc-prof">
+                    <h2>This is War</h2>
+                    <h3>1 day ago</h3>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+    <section id="tracks">
+        <div class="title">
+            <h1>Tracks</h1>
+        </div>
+        <div class="Track-musics">
+            <div class="t-music">
+                <img src="assets/track1.jpg" alt="">
+                <h1>Mahara Bon</h1>
+                <h2>Sexy in paris
+                </h2>
+            </div>
+            <div class="t-music">
+                <img src="assets/track2.jpg" alt="">
+                <h1>Donna</h1>
+                <h2>Pseudo-Life</h2>
+            </div>
+            <div class="t-music">
+                <img src="assets/track3.jpg" alt="">
+                <h1>Avven</h1>
+                <h2>Magic</h2>
+            </div>
+            <div class="t-music">
+                <img src="assets/track4.jpg" alt="">
+                <h1>Cony</h1>
+                <h2>10 Living</h2>
+            </div>
+            <div class="t-music">
+                <img src="assets/track5.jpg" alt="">
+                <h1>Cony</h1>
+                <h2>10 Living</h2>
+            </div>
+            <div class="t-music">
+                <img src="assets/track6.jpg" alt="">
+                <h1>Cony</h1>
+                <h2>10 Living</h2>
+            </div>
+            <div class="t-music">
+                <img src="assets/track7.jpg" alt="">
+                <h1>Cony</h1>
+                <h2>10 Living</h2>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
