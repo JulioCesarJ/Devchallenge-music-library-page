@@ -8,12 +8,6 @@
   <p align="center">
      Página de biblioteca de músicas
        <br/>
-    <br/>
-    <a href="https://github.com/mannoeu/landing-page-music">Desafio</a>
-    ·
-    <a href="https://www.devchallenge.com.br/">DevChallenge</a>
-  </p>
-</p>
 
 
 
